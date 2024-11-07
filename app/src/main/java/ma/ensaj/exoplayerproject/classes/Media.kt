@@ -8,6 +8,6 @@ data class Media(
     val duration: String = "00:00",
     val thumbnail: String? = null,
     val description: String? = null,
-    val favorite: Boolean = false,
-    val playbackPosition: Long = 0 // To remember where user left off
+    var favorite: Boolean = false,
+    val playbackPosition: Long = 0
 )
